@@ -1,0 +1,648 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*  navbar ----- */
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav {
+    text-align: center;
+    color: #4D4D4D;
+    background-color: #734060;
+    border-radius: 8px 8px 0 0;
+    padding: 8px 16px;
+    font-family: system-ui, Helvetica, Arial, sans-serif, Color, Symbol, Color;
+}
+
+.nav .span1 {
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #ddc5d8;
+    font-weight: 800;
+}
+
+.nav span {
+    font: 14px;
+    color: #fff;
+    font-weight: 800;
+}
+
+.navbar {
+    color: #fff;
+    position: relative;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #FFFFFF;
+}
+
+.brand {
+    font-size: 3.5rem;
+    text-decoration: none;
+    color: #734060;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px;
+    display: block;
+}
+
+.nav-links li a:hover {
+    background-color: #723f5f;
+    color: white;
+}
+
+.burger {
+    display: none;
+    cursor: pointer;
+}
+
+.burger .line {
+    height: 3px;
+    width: 25px;
+    background-color: #734060;
+    margin: 5px;
+    transition: transform 0.4s ease;
+}
+
+/*  navbar ----- */
+
+/* about contant --------  */
+.about {
+    /* height: 700px; */
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ab {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.img {
+    width: 40%;
+
+}
+
+.img img {
+    max-height: 525px;
+}
+
+.abtext {
+    width: 40%;
+    padding: 0 10px;
+}
+
+.abtext h1 {
+    color: #734060;
+    padding: 5px 0;
+    font-size: 60px;
+}
+
+.abtext .h {
+    font-size: 22px;
+    font-weight: 600;
+    /* padding: 5px 0 24px; */
+    line-height: 85px;
+}
+
+.abtext .p1,
+.p2,
+.p3 {
+    color: #4D4D4D;
+    font-size: 18px;
+    padding: 5px 0;
+}
+
+/*  follow  icon box  */
+
+.email {
+    height: 200px;
+    background-color: #734060;
+}
+
+.email .fol {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.email .fol .fols {
+    /* height: 50px; */
+    height: 0px;
+    margin-top: 12px;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    padding-right: 10px;
+}
+
+.email .insta {
+    display: flex;
+}
+
+.email .fol a {
+    height: 40px;
+    width: 40px;
+    color: black;
+    border-radius: 50%;
+    background-color: white;
+    margin: 0 5px;
+    text-decoration: none;
+}
+
+.email .for {
+    width: auto;
+}
+
+.email .for p {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.email .for input {
+    width: 245px;
+    padding: 7px;
+    font-size: 16px;
+    /* outline: none; */
+    margin-bottom: 30px;
+
+}
+
+.email .for .go {
+    width: fit-content;
+    font-weight: 600;
+    color: white;
+    outline: none;
+    border: none;
+    background-color: #e3b50c;
+}
+
+
+
+/* footer ---- */
+
+.footer {
+    display: flex;
+    margin: 0 50px;
+    padding: 30px;
+    padding-bottom: 0;
+}
+
+.footer .foot1 {
+    height: 600px;
+    width: 50%;
+}
+
+.foot1 .abo {
+    height: 380px;
+    width: 90%;
+}
+
+.foot1 .abchi {
+    height: 300px;
+    width: 45%;
+    line-height: 30px;
+}
+
+.foot1 .abchi ul li {
+    list-style: none;
+}
+
+.foot1 .abicon {
+    height: 80px;
+    margin-left: 20px;
+}
+
+.foot1 .abicon a {
+    display: inline-block;
+    height: 3rem;
+    width: 3rem;
+    background-color: #734060;
+    text-align: center;
+    padding: 15px 0;
+    margin: 20px 0 0 20px;
+    border-radius: 50%;
+}
+
+.foot1 .abicon a :hover {
+    transform: rotateY(180deg);
+    transition: all 0.5s ease-in-out;
+}
+
+.foot1 .abpinch {
+    height: 50px;
+    display: flex;
+    margin-top: 50px;
+
+}
+
+.foot1 .abpinch .of {
+    font-size: 40px;
+    width: 50%;
+    text-align: center;
+    color: #723f5f;
+}
+
+.foot1 .abpinch .ofy {
+    font-size: 15px;
+    width: 45%;
+    padding: 5px 10px;
+}
+
+.foot2 {
+    width: 50%;
+}
+
+.foot2 .for {
+    width: auto;
+    background-color: #734060;
+    margin-top: 40px;
+    padding: 8px;
+    text-align: center;
+}
+
+.foot2 .for p {
+    font-size: 25px;
+    text-align: center;
+    padding-top: 20px;
+    color: #fff;
+}
+
+.foot2 .for .p {
+    padding: 10px 0 20px 10px;
+}
+
+.foot2 .for input {
+    width: 180px;
+    padding: 10px;
+    font-size: 18px;
+    outline: none;
+    margin-bottom: 30px;
+}
+
+.foot2 .for .go {
+    width: fit-content;
+    font-weight: 600;
+    color: white;
+    outline: none;
+    border: none;
+    background-color: #e3b50c;
+}
+
+.foot2 .clar {
+    height: 100px;
+    margin-top: 45px;
+}
+
+.foot2 .clar h4 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.foot2 .clar ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.foot2 .clar ul li {
+    list-style: none;
+}
+
+.foot2 .clar ul li img {
+    height: 3rem;
+    filter: grayscale(1);
+}
+
+.foot2 .clar ul li img:hover {
+    filter: grayscale(0);
+}
+
+
+.mid .img5 {
+    display: none;
+}
+
+/* footer ---- */
+
+/*  Responsive media query ----  */
+
+
+
+
+@media screen and (max-width:769px) {
+    .nav .span1 {
+        font-size: 12px;
+        letter-spacing: 1px;
+        font-weight: 500;
+    }
+
+    .nav span {
+        font: 10px;
+        font-weight: 400;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        background-color: whitesmoke;
+        text-align: center;
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+        transition: all .6s ease-in;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links li {
+        margin-right: 0;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .burger.active .line:nth-child(1) {
+        transform: rotate(-45deg) translate(-5px, 6px);
+    }
+
+    .burger.active .line:nth-child(2) {
+        opacity: 0;
+    }
+
+    .burger.active .line:nth-child(3) {
+        transform: rotate(45deg) translate(-5px, -6px);
+    }
+
+    .brand {
+        font-size: 2.5rem;
+        text-decoration: none;
+        color: #734060;
+    }
+
+    /*  about contant -------- */
+
+    .about .ab {
+        width: 100%;
+    }
+
+    .about .img {
+        width: 100%;
+    }
+
+    .about .img img {
+        height: 490px;
+    }
+
+    .about .abtext {
+        width: 100%;
+        padding: 5px 16px;
+    }
+
+    .about .abtext h1 {
+        padding: 5px 0;
+        font-size: 40px;
+    }
+
+    .about .abtext .h {
+        line-height: 45px;
+    }
+
+    .abtext .p1,
+    .p2,
+    .p3 {
+        color: #656563;
+        font-size: 19px;
+        line-height: 25px;
+    }
+
+
+
+
+    /* follow icon box --------- */
+    .email {
+        height: fit-content;
+        flex-wrap: nowrap;
+    }
+
+    .email .fol {
+        height: 150px;
+        width: 100vw;
+        flex-direction: column;
+    }
+
+    .email .fol .fols {
+        height: 50px;
+        margin-top: 10px;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .insta {
+        display: flex;
+        justify-content: center;
+    }
+
+    .email .for {
+        width: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+    }
+
+    .email .for input {
+        width: 150px;
+        margin-bottom: 20px;
+    }
+
+    .email .for p {
+        padding-bottom: 10px;
+        padding-left: 10px;
+    }
+
+    .email .for .go {
+        width: 200px;
+        margin-left: 40px;
+    }
+
+
+
+
+    /*  footer content ---------------- */
+    .footer {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        padding-bottom: 0;
+    }
+
+    .footer .foot1 {
+        height: 570px;
+        width: auto;
+    }
+
+    .foot1 .abo {
+        height: 380px;
+        width: 100%;
+    }
+
+    .foot1 .abicon {
+        height: 80px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .foot1 .abicon a {
+        display: inline-block;
+        height: 3rem;
+        width: 3rem;
+        background-color: #734060;
+        text-align: center;
+        padding: 15px 0;
+        margin: 20px 0 0 10px;
+        border-radius: 50%;
+    }
+
+    .foot1 .abpinch {
+        height: auto;
+        display: flex;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .foot1 .abpinch .of {
+        font-size: 40px;
+        width: 100%;
+        text-align: center;
+        color: #723f5f;
+    }
+
+    .foot1 .abpinch .ofy {
+        width: 100%;
+        padding: 5px 10px;
+    }
+
+    .foot2 {
+        width: 100%;
+    }
+
+    .foot2 .for {
+        height: auto;
+        background-color: #734060;
+        margin-top: 0px;
+    }
+
+    .foot2 .for .i {
+        margin-left: 0px;
+    }
+
+    .foot2 .for input {
+        width: 210px;
+        padding: 10px;
+        font-size: 18px;
+        outline: none;
+        margin-left: 0px;
+        margin-bottom: 5px;
+    }
+
+    .foot2 .for .go {
+        width: 210px;
+        font-weight: 600;
+        color: white;
+        outline: none;
+        border: none;
+        background-color: #e3b50c;
+    }
+
+    .foot2 .for p {
+        font-size: 20px;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 5px;
+    }
+
+    .foot2 .clar {
+        height: 150px;
+        margin-top: 45px;
+    }
+}
+
+@media screen and (max-width:767px) {
+
+
+    /*  follow icon ---------- */
+    .email {
+        flex-wrap: wrap;
+    }
+
+    .email .for {
+        flex-direction: row;
+    }
+
+
+
+
+    /* footer ------------- */
+    .foot1 .abpinch {
+        display: block;
+        margin-top: 0;
+    }
+}
+@media (max-width:426px) {
+
+
+
+
+
+    /* about contant ----  */
+    .about .ab {
+        flex-wrap: wrap;
+    }
+
+    .about .img img {
+        height: fit-content;
+        width: 100vw;
+    }
+
+}
